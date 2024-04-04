@@ -24,4 +24,9 @@ public class Hook {
 	public static void close() {
 		driver.close();
 	}
+	
+	public void push()
+	{
+		// push code
+	}
 }
