@@ -1,0 +1,594 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Login background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 425346300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 817373300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "LoginPageStepDef.enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3022678600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Login scenario1",
+        "description": "",
+        "id": "fb-site-login;login-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 276670500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 814558600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 168460500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "LoginPageStepDef.enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@execute"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Login background",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 956527300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206542400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "LoginPageStepDef.enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1585516800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login scenario2",
+        "description": "",
+        "id": "fb-site-login;login-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 308180400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 507913900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163681100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "LoginPageStepDef.enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat org.stepdef.LoginPageStepDef.and1(LoginPageStepDef.java:37)\r\n\tat ✽.supporting statement1(Features/LoginDemo.feature:17)\r\n",
+              "duration": 3723200,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "supporting statement1",
+            "match": {
+              "location": "LoginPageStepDef.and1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9700,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@execute"
+          }
+        ]
+      }
+    ],
+    "name": "Fb site login",
+    "description": "",
+    "id": "fb-site-login",
+    "keyword": "Feature",
+    "uri": "Features/LoginDemo.feature",
+    "tags": [
+      {
+        "name": "@execute",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1478519200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login scenario1",
+        "description": "",
+        "id": "fb-site-login;login-scenario1;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 269690400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 897016200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184261200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the username as \"Ravi\" and password as \"rx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Ravi\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"rx\"",
+                  "offset": 45
+                }
+              ],
+              "location": "LoginPageStepDef.enter_the_username_and_password_outline(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1532112400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login scenario1",
+        "description": "",
+        "id": "fb-site-login;login-scenario1;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 290743100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 910620300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 167001000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the username as \"Saranya\" and password as \"sx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Saranya\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"sx\"",
+                  "offset": 48
+                }
+              ],
+              "location": "LoginPageStepDef.enter_the_username_and_password_outline(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 72900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1514765900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login scenario1",
+        "description": "",
+        "id": "fb-site-login;login-scenario1;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 327197700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 901902300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187584800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the username as \"Divya\" and password as \"dx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Divya\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"dx\"",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginPageStepDef.enter_the_username_and_password_outline(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1788121300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.browserlaunch()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login scenario1",
+        "description": "",
+        "id": "fb-site-login;login-scenario1;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 427316300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1148616200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open facebook and launch the application",
+            "match": {
+              "location": "LoginPageStepDef.open_facebook_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 240494200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the username as \"Karthikeyan\" and password as \"kx\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Karthikeyan\"",
+                  "offset": 22
+                },
+                {
+                  "val": "\"kx\"",
+                  "offset": 52
+                }
+              ],
+              "location": "LoginPageStepDef.enter_the_username_and_password_outline(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Test execution completed",
+            "match": {
+              "location": "LoginPageStepDef.xxxxxxx()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fb site login",
+    "description": "",
+    "id": "fb-site-login",
+    "keyword": "Feature",
+    "uri": "Features/LoginDemo2.feature",
+    "tags": []
+  }
+]
